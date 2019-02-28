@@ -1,8 +1,6 @@
 # RubyHome::TLV
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby_home/tlv`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This library implements a TLV-HAP parser, used for processing HomeKit Accessory Protocol Specification (HAP) related data.
 
 ## Installation
 
@@ -20,9 +18,13 @@ Or install it yourself as:
 
     $ gem install ruby_home-tlv
 
+
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+RubyHome::TLV.decode('010568656c6c6f') => {identifier: 'hello'}
+RubyHome::TLV.decode({identifier: 'hello'}) => '010568656c6c6f'
+```
 
 ## Development
 
