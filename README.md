@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/karlentwistle/ruby_home-tlv.svg?branch=master)](https://travis-ci.org/karlentwistle/ruby_home-tlv)
+
 # RubyHome::TLV
 
 This library implements a TLV-HAP parser, used for processing HomeKit Accessory Protocol Specification (HAP) related data.
