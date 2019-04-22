@@ -26,7 +26,7 @@ Or install it yourself as:
 ```ruby
 require 'ruby_home/tlv'
 
-RubyHome::TLV.decode('010568656c6c6f') => {identifier: 'hello'}
+RubyHome::TLV.decode(['010568656c6c6f'].pack('H*')) => {identifier: 'hello'}
 RubyHome::TLV.encode({identifier: 'hello'}) => '010568656c6c6f'
 ```
 
