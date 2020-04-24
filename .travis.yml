@@ -8,3 +8,6 @@ rvm:
   - ruby-head
 sudo: false
 before_install: gem install bundler 
+jobs:
+  allow_failures:
+  - rvm: ruby-head
