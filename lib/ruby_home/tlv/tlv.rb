@@ -5,7 +5,7 @@ module RubyHome
     class TLV < BinData::Record
       uint8 :type_id
       uint8 :len, value: -> { val.to_binary_s.length }
-      choice :val, selection: :type_id do
+      choice :val, selection: -> { type_id.to_i } do
         string :default, read_length: :len
 
         uint8       0, read_length: :len
