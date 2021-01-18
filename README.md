@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/karlentwistle/ruby_home-tlv.svg?branch=master)](https://travis-ci.org/karlentwistle/ruby_home-tlv)
+[![Build Status](https://www.travis-ci.com/karlentwistle/ruby_home-tlv.svg?branch=master)](https://www.travis-ci.com/karlentwistle/ruby_home-tlv)
 
 # RubyHome::TLV
 
